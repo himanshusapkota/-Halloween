@@ -42,11 +42,31 @@ nav h2{
 }
 
 .hero{
-    padding: 110px 10%;
-    max-width: 895px;
+    padding: 80px 10%;
+    max-width: none;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 35px;
+    min-height: 540px;
 
 
 }
+
+.house{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(0.65);
+
+}
+
+.hero-content{
+    max-width: 600px;
+
+}
+
+
 
 .small{
     color: #d47e2d;
